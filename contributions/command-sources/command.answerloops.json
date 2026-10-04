@@ -579,6 +579,7 @@
         "native_capability": null,
         "permission_id": "command.answerloops.permission.setup",
         "risk_classes": [
+          "destructive_shell",
           "execution",
           "network_egress"
         ],
