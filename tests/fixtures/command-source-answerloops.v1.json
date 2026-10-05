@@ -10167,14 +10167,16 @@
                       "inverse_flag_pairs": [],
                       "leading_options_with_values": [],
                       "options_with_values": [],
+                      "paths": [
+                        [
+                          "setup"
+                        ]
+                      ],
                       "required_flags": [],
                       "required_flags_in_all_arguments": false,
-                      "required_option_values": [],
-                      "subcommands": [
-                        "setup"
-                      ]
+                      "required_option_values": []
                     },
-                    "op": "executable.v1"
+                    "op": "executable-path-set.v1"
                   },
                   {
                     "config": {
@@ -10215,162 +10217,25 @@
                       "inverse_flag_pairs": [],
                       "leading_options_with_values": [],
                       "options_with_values": [],
+                      "paths": [
+                        [
+                          "@answerloops/agent-sdk",
+                          "setup"
+                        ],
+                        [
+                          "@answerloops/agent-sdk@latest",
+                          "setup"
+                        ],
+                        [
+                          "answerloops",
+                          "setup"
+                        ]
+                      ],
                       "required_flags": [],
                       "required_flags_in_all_arguments": false,
-                      "required_option_values": [],
-                      "subcommands": [
-                        "@answerloops/agent-sdk",
-                        "setup"
-                      ]
+                      "required_option_values": []
                     },
-                    "op": "executable.v1"
-                  },
-                  {
-                    "config": {
-                      "allow_leading_options": false,
-                      "executables": [
-                        "npx",
-                        "npx.cmd",
-                        "npx.exe",
-                        "bunx",
-                        "bunx.cmd",
-                        "bunx.exe"
-                      ],
-                      "fail_secure_unknown_options": false,
-                      "forbidden_flags": [],
-                      "interspersed_flags": [
-                        "--aggregate-output",
-                        "--silent",
-                        "--stream",
-                        "--use-stderr",
-                        "--workspace-root",
-                        "--yes",
-                        "-y"
-                      ],
-                      "interspersed_options_with_values": [
-                        "--cache",
-                        "--call",
-                        "--dir",
-                        "--filter",
-                        "--package",
-                        "--reporter",
-                        "--workspace",
-                        "-C",
-                        "-F",
-                        "-c",
-                        "-p",
-                        "-w"
-                      ],
-                      "inverse_flag_pairs": [],
-                      "leading_options_with_values": [],
-                      "options_with_values": [],
-                      "required_flags": [],
-                      "required_flags_in_all_arguments": false,
-                      "required_option_values": [],
-                      "subcommands": [
-                        "@answerloops/agent-sdk@latest",
-                        "setup"
-                      ]
-                    },
-                    "op": "executable.v1"
-                  },
-                  {
-                    "config": {
-                      "allow_leading_options": false,
-                      "executables": [
-                        "npx",
-                        "npx.cmd",
-                        "npx.exe",
-                        "bunx",
-                        "bunx.cmd",
-                        "bunx.exe"
-                      ],
-                      "fail_secure_unknown_options": false,
-                      "forbidden_flags": [],
-                      "interspersed_flags": [
-                        "--aggregate-output",
-                        "--silent",
-                        "--stream",
-                        "--use-stderr",
-                        "--workspace-root",
-                        "--yes",
-                        "-y"
-                      ],
-                      "interspersed_options_with_values": [
-                        "--cache",
-                        "--call",
-                        "--dir",
-                        "--filter",
-                        "--package",
-                        "--reporter",
-                        "--workspace",
-                        "-C",
-                        "-F",
-                        "-c",
-                        "-p",
-                        "-w"
-                      ],
-                      "inverse_flag_pairs": [],
-                      "leading_options_with_values": [],
-                      "options_with_values": [],
-                      "required_flags": [],
-                      "required_flags_in_all_arguments": false,
-                      "required_option_values": [],
-                      "subcommands": [
-                        "answerloops",
-                        "setup"
-                      ]
-                    },
-                    "op": "executable.v1"
-                  },
-                  {
-                    "config": {
-                      "allow_leading_options": false,
-                      "executables": [
-                        "pnpm",
-                        "pnpm.cmd",
-                        "pnpm.exe",
-                        "yarn",
-                        "yarn.cmd",
-                        "yarn.exe"
-                      ],
-                      "fail_secure_unknown_options": false,
-                      "forbidden_flags": [],
-                      "interspersed_flags": [
-                        "--aggregate-output",
-                        "--silent",
-                        "--stream",
-                        "--use-stderr",
-                        "--workspace-root",
-                        "--yes",
-                        "-y"
-                      ],
-                      "interspersed_options_with_values": [
-                        "--cache",
-                        "--call",
-                        "--dir",
-                        "--filter",
-                        "--package",
-                        "--reporter",
-                        "--workspace",
-                        "-C",
-                        "-F",
-                        "-c",
-                        "-p",
-                        "-w"
-                      ],
-                      "inverse_flag_pairs": [],
-                      "leading_options_with_values": [],
-                      "options_with_values": [],
-                      "required_flags": [],
-                      "required_flags_in_all_arguments": false,
-                      "required_option_values": [],
-                      "subcommands": [
-                        "answerloops",
-                        "setup"
-                      ]
-                    },
-                    "op": "executable.v1"
+                    "op": "executable-path-set.v1"
                   },
                   {
                     "config": {
@@ -10411,116 +10276,28 @@
                       "inverse_flag_pairs": [],
                       "leading_options_with_values": [],
                       "options_with_values": [],
+                      "paths": [
+                        [
+                          "exec",
+                          "@answerloops/agent-sdk",
+                          "setup"
+                        ],
+                        [
+                          "exec",
+                          "@answerloops/agent-sdk@latest",
+                          "setup"
+                        ],
+                        [
+                          "exec",
+                          "answerloops",
+                          "setup"
+                        ]
+                      ],
                       "required_flags": [],
                       "required_flags_in_all_arguments": false,
-                      "required_option_values": [],
-                      "subcommands": [
-                        "exec",
-                        "@answerloops/agent-sdk",
-                        "setup"
-                      ]
+                      "required_option_values": []
                     },
-                    "op": "executable.v1"
-                  },
-                  {
-                    "config": {
-                      "allow_leading_options": false,
-                      "executables": [
-                        "npm",
-                        "npm.cmd",
-                        "npm.exe",
-                        "pnpm",
-                        "pnpm.cmd",
-                        "pnpm.exe"
-                      ],
-                      "fail_secure_unknown_options": false,
-                      "forbidden_flags": [],
-                      "interspersed_flags": [
-                        "--aggregate-output",
-                        "--silent",
-                        "--stream",
-                        "--use-stderr",
-                        "--workspace-root",
-                        "--yes",
-                        "-y"
-                      ],
-                      "interspersed_options_with_values": [
-                        "--cache",
-                        "--call",
-                        "--dir",
-                        "--filter",
-                        "--package",
-                        "--reporter",
-                        "--workspace",
-                        "-C",
-                        "-F",
-                        "-c",
-                        "-p",
-                        "-w"
-                      ],
-                      "inverse_flag_pairs": [],
-                      "leading_options_with_values": [],
-                      "options_with_values": [],
-                      "required_flags": [],
-                      "required_flags_in_all_arguments": false,
-                      "required_option_values": [],
-                      "subcommands": [
-                        "exec",
-                        "@answerloops/agent-sdk@latest",
-                        "setup"
-                      ]
-                    },
-                    "op": "executable.v1"
-                  },
-                  {
-                    "config": {
-                      "allow_leading_options": false,
-                      "executables": [
-                        "npm",
-                        "npm.cmd",
-                        "npm.exe",
-                        "pnpm",
-                        "pnpm.cmd",
-                        "pnpm.exe"
-                      ],
-                      "fail_secure_unknown_options": false,
-                      "forbidden_flags": [],
-                      "interspersed_flags": [
-                        "--aggregate-output",
-                        "--silent",
-                        "--stream",
-                        "--use-stderr",
-                        "--workspace-root",
-                        "--yes",
-                        "-y"
-                      ],
-                      "interspersed_options_with_values": [
-                        "--cache",
-                        "--call",
-                        "--dir",
-                        "--filter",
-                        "--package",
-                        "--reporter",
-                        "--workspace",
-                        "-C",
-                        "-F",
-                        "-c",
-                        "-p",
-                        "-w"
-                      ],
-                      "inverse_flag_pairs": [],
-                      "leading_options_with_values": [],
-                      "options_with_values": [],
-                      "required_flags": [],
-                      "required_flags_in_all_arguments": false,
-                      "required_option_values": [],
-                      "subcommands": [
-                        "exec",
-                        "answerloops",
-                        "setup"
-                      ]
-                    },
-                    "op": "executable.v1"
+                    "op": "executable-path-set.v1"
                   },
                   {
                     "config": {
@@ -10561,66 +10338,27 @@
                       "inverse_flag_pairs": [],
                       "leading_options_with_values": [],
                       "options_with_values": [],
+                      "paths": [
+                        [
+                          "answerloops",
+                          "setup"
+                        ],
+                        [
+                          "dlx",
+                          "@answerloops/agent-sdk",
+                          "setup"
+                        ],
+                        [
+                          "dlx",
+                          "@answerloops/agent-sdk@latest",
+                          "setup"
+                        ]
+                      ],
                       "required_flags": [],
                       "required_flags_in_all_arguments": false,
-                      "required_option_values": [],
-                      "subcommands": [
-                        "dlx",
-                        "@answerloops/agent-sdk",
-                        "setup"
-                      ]
+                      "required_option_values": []
                     },
-                    "op": "executable.v1"
-                  },
-                  {
-                    "config": {
-                      "allow_leading_options": false,
-                      "executables": [
-                        "pnpm",
-                        "pnpm.cmd",
-                        "pnpm.exe",
-                        "yarn",
-                        "yarn.cmd",
-                        "yarn.exe"
-                      ],
-                      "fail_secure_unknown_options": false,
-                      "forbidden_flags": [],
-                      "interspersed_flags": [
-                        "--aggregate-output",
-                        "--silent",
-                        "--stream",
-                        "--use-stderr",
-                        "--workspace-root",
-                        "--yes",
-                        "-y"
-                      ],
-                      "interspersed_options_with_values": [
-                        "--cache",
-                        "--call",
-                        "--dir",
-                        "--filter",
-                        "--package",
-                        "--reporter",
-                        "--workspace",
-                        "-C",
-                        "-F",
-                        "-c",
-                        "-p",
-                        "-w"
-                      ],
-                      "inverse_flag_pairs": [],
-                      "leading_options_with_values": [],
-                      "options_with_values": [],
-                      "required_flags": [],
-                      "required_flags_in_all_arguments": false,
-                      "required_option_values": [],
-                      "subcommands": [
-                        "dlx",
-                        "@answerloops/agent-sdk@latest",
-                        "setup"
-                      ]
-                    },
-                    "op": "executable.v1"
+                    "op": "executable-path-set.v1"
                   }
                 ],
                 "op": "any.v1"
@@ -10667,14 +10405,16 @@
                       "inverse_flag_pairs": [],
                       "leading_options_with_values": [],
                       "options_with_values": [],
+                      "paths": [
+                        [
+                          "skills"
+                        ]
+                      ],
                       "required_flags": [],
                       "required_flags_in_all_arguments": false,
-                      "required_option_values": [],
-                      "subcommands": [
-                        "skills"
-                      ]
+                      "required_option_values": []
                     },
-                    "op": "executable.v1"
+                    "op": "executable-path-set.v1"
                   },
                   {
                     "config": {
@@ -10715,162 +10455,25 @@
                       "inverse_flag_pairs": [],
                       "leading_options_with_values": [],
                       "options_with_values": [],
+                      "paths": [
+                        [
+                          "@answerloops/agent-sdk",
+                          "skills"
+                        ],
+                        [
+                          "@answerloops/agent-sdk@latest",
+                          "skills"
+                        ],
+                        [
+                          "answerloops",
+                          "skills"
+                        ]
+                      ],
                       "required_flags": [],
                       "required_flags_in_all_arguments": false,
-                      "required_option_values": [],
-                      "subcommands": [
-                        "@answerloops/agent-sdk",
-                        "skills"
-                      ]
+                      "required_option_values": []
                     },
-                    "op": "executable.v1"
-                  },
-                  {
-                    "config": {
-                      "allow_leading_options": false,
-                      "executables": [
-                        "npx",
-                        "npx.cmd",
-                        "npx.exe",
-                        "bunx",
-                        "bunx.cmd",
-                        "bunx.exe"
-                      ],
-                      "fail_secure_unknown_options": false,
-                      "forbidden_flags": [],
-                      "interspersed_flags": [
-                        "--aggregate-output",
-                        "--silent",
-                        "--stream",
-                        "--use-stderr",
-                        "--workspace-root",
-                        "--yes",
-                        "-y"
-                      ],
-                      "interspersed_options_with_values": [
-                        "--cache",
-                        "--call",
-                        "--dir",
-                        "--filter",
-                        "--package",
-                        "--reporter",
-                        "--workspace",
-                        "-C",
-                        "-F",
-                        "-c",
-                        "-p",
-                        "-w"
-                      ],
-                      "inverse_flag_pairs": [],
-                      "leading_options_with_values": [],
-                      "options_with_values": [],
-                      "required_flags": [],
-                      "required_flags_in_all_arguments": false,
-                      "required_option_values": [],
-                      "subcommands": [
-                        "@answerloops/agent-sdk@latest",
-                        "skills"
-                      ]
-                    },
-                    "op": "executable.v1"
-                  },
-                  {
-                    "config": {
-                      "allow_leading_options": false,
-                      "executables": [
-                        "npx",
-                        "npx.cmd",
-                        "npx.exe",
-                        "bunx",
-                        "bunx.cmd",
-                        "bunx.exe"
-                      ],
-                      "fail_secure_unknown_options": false,
-                      "forbidden_flags": [],
-                      "interspersed_flags": [
-                        "--aggregate-output",
-                        "--silent",
-                        "--stream",
-                        "--use-stderr",
-                        "--workspace-root",
-                        "--yes",
-                        "-y"
-                      ],
-                      "interspersed_options_with_values": [
-                        "--cache",
-                        "--call",
-                        "--dir",
-                        "--filter",
-                        "--package",
-                        "--reporter",
-                        "--workspace",
-                        "-C",
-                        "-F",
-                        "-c",
-                        "-p",
-                        "-w"
-                      ],
-                      "inverse_flag_pairs": [],
-                      "leading_options_with_values": [],
-                      "options_with_values": [],
-                      "required_flags": [],
-                      "required_flags_in_all_arguments": false,
-                      "required_option_values": [],
-                      "subcommands": [
-                        "answerloops",
-                        "skills"
-                      ]
-                    },
-                    "op": "executable.v1"
-                  },
-                  {
-                    "config": {
-                      "allow_leading_options": false,
-                      "executables": [
-                        "pnpm",
-                        "pnpm.cmd",
-                        "pnpm.exe",
-                        "yarn",
-                        "yarn.cmd",
-                        "yarn.exe"
-                      ],
-                      "fail_secure_unknown_options": false,
-                      "forbidden_flags": [],
-                      "interspersed_flags": [
-                        "--aggregate-output",
-                        "--silent",
-                        "--stream",
-                        "--use-stderr",
-                        "--workspace-root",
-                        "--yes",
-                        "-y"
-                      ],
-                      "interspersed_options_with_values": [
-                        "--cache",
-                        "--call",
-                        "--dir",
-                        "--filter",
-                        "--package",
-                        "--reporter",
-                        "--workspace",
-                        "-C",
-                        "-F",
-                        "-c",
-                        "-p",
-                        "-w"
-                      ],
-                      "inverse_flag_pairs": [],
-                      "leading_options_with_values": [],
-                      "options_with_values": [],
-                      "required_flags": [],
-                      "required_flags_in_all_arguments": false,
-                      "required_option_values": [],
-                      "subcommands": [
-                        "answerloops",
-                        "skills"
-                      ]
-                    },
-                    "op": "executable.v1"
+                    "op": "executable-path-set.v1"
                   },
                   {
                     "config": {
@@ -10911,116 +10514,28 @@
                       "inverse_flag_pairs": [],
                       "leading_options_with_values": [],
                       "options_with_values": [],
+                      "paths": [
+                        [
+                          "exec",
+                          "@answerloops/agent-sdk",
+                          "skills"
+                        ],
+                        [
+                          "exec",
+                          "@answerloops/agent-sdk@latest",
+                          "skills"
+                        ],
+                        [
+                          "exec",
+                          "answerloops",
+                          "skills"
+                        ]
+                      ],
                       "required_flags": [],
                       "required_flags_in_all_arguments": false,
-                      "required_option_values": [],
-                      "subcommands": [
-                        "exec",
-                        "@answerloops/agent-sdk",
-                        "skills"
-                      ]
+                      "required_option_values": []
                     },
-                    "op": "executable.v1"
-                  },
-                  {
-                    "config": {
-                      "allow_leading_options": false,
-                      "executables": [
-                        "npm",
-                        "npm.cmd",
-                        "npm.exe",
-                        "pnpm",
-                        "pnpm.cmd",
-                        "pnpm.exe"
-                      ],
-                      "fail_secure_unknown_options": false,
-                      "forbidden_flags": [],
-                      "interspersed_flags": [
-                        "--aggregate-output",
-                        "--silent",
-                        "--stream",
-                        "--use-stderr",
-                        "--workspace-root",
-                        "--yes",
-                        "-y"
-                      ],
-                      "interspersed_options_with_values": [
-                        "--cache",
-                        "--call",
-                        "--dir",
-                        "--filter",
-                        "--package",
-                        "--reporter",
-                        "--workspace",
-                        "-C",
-                        "-F",
-                        "-c",
-                        "-p",
-                        "-w"
-                      ],
-                      "inverse_flag_pairs": [],
-                      "leading_options_with_values": [],
-                      "options_with_values": [],
-                      "required_flags": [],
-                      "required_flags_in_all_arguments": false,
-                      "required_option_values": [],
-                      "subcommands": [
-                        "exec",
-                        "@answerloops/agent-sdk@latest",
-                        "skills"
-                      ]
-                    },
-                    "op": "executable.v1"
-                  },
-                  {
-                    "config": {
-                      "allow_leading_options": false,
-                      "executables": [
-                        "npm",
-                        "npm.cmd",
-                        "npm.exe",
-                        "pnpm",
-                        "pnpm.cmd",
-                        "pnpm.exe"
-                      ],
-                      "fail_secure_unknown_options": false,
-                      "forbidden_flags": [],
-                      "interspersed_flags": [
-                        "--aggregate-output",
-                        "--silent",
-                        "--stream",
-                        "--use-stderr",
-                        "--workspace-root",
-                        "--yes",
-                        "-y"
-                      ],
-                      "interspersed_options_with_values": [
-                        "--cache",
-                        "--call",
-                        "--dir",
-                        "--filter",
-                        "--package",
-                        "--reporter",
-                        "--workspace",
-                        "-C",
-                        "-F",
-                        "-c",
-                        "-p",
-                        "-w"
-                      ],
-                      "inverse_flag_pairs": [],
-                      "leading_options_with_values": [],
-                      "options_with_values": [],
-                      "required_flags": [],
-                      "required_flags_in_all_arguments": false,
-                      "required_option_values": [],
-                      "subcommands": [
-                        "exec",
-                        "answerloops",
-                        "skills"
-                      ]
-                    },
-                    "op": "executable.v1"
+                    "op": "executable-path-set.v1"
                   },
                   {
                     "config": {
@@ -11061,66 +10576,27 @@
                       "inverse_flag_pairs": [],
                       "leading_options_with_values": [],
                       "options_with_values": [],
+                      "paths": [
+                        [
+                          "answerloops",
+                          "skills"
+                        ],
+                        [
+                          "dlx",
+                          "@answerloops/agent-sdk",
+                          "skills"
+                        ],
+                        [
+                          "dlx",
+                          "@answerloops/agent-sdk@latest",
+                          "skills"
+                        ]
+                      ],
                       "required_flags": [],
                       "required_flags_in_all_arguments": false,
-                      "required_option_values": [],
-                      "subcommands": [
-                        "dlx",
-                        "@answerloops/agent-sdk",
-                        "skills"
-                      ]
+                      "required_option_values": []
                     },
-                    "op": "executable.v1"
-                  },
-                  {
-                    "config": {
-                      "allow_leading_options": false,
-                      "executables": [
-                        "pnpm",
-                        "pnpm.cmd",
-                        "pnpm.exe",
-                        "yarn",
-                        "yarn.cmd",
-                        "yarn.exe"
-                      ],
-                      "fail_secure_unknown_options": false,
-                      "forbidden_flags": [],
-                      "interspersed_flags": [
-                        "--aggregate-output",
-                        "--silent",
-                        "--stream",
-                        "--use-stderr",
-                        "--workspace-root",
-                        "--yes",
-                        "-y"
-                      ],
-                      "interspersed_options_with_values": [
-                        "--cache",
-                        "--call",
-                        "--dir",
-                        "--filter",
-                        "--package",
-                        "--reporter",
-                        "--workspace",
-                        "-C",
-                        "-F",
-                        "-c",
-                        "-p",
-                        "-w"
-                      ],
-                      "inverse_flag_pairs": [],
-                      "leading_options_with_values": [],
-                      "options_with_values": [],
-                      "required_flags": [],
-                      "required_flags_in_all_arguments": false,
-                      "required_option_values": [],
-                      "subcommands": [
-                        "dlx",
-                        "@answerloops/agent-sdk@latest",
-                        "skills"
-                      ]
-                    },
-                    "op": "executable.v1"
+                    "op": "executable-path-set.v1"
                   }
                 ],
                 "op": "any.v1"
@@ -11163,6 +10639,7 @@
           "command.ctty",
           "command.digline",
           "command.errand",
+          "command.faf-cli",
           "command.genclave",
           "command.gitsync",
           "command.mcp-contribos",
