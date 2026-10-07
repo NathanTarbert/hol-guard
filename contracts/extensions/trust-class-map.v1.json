@@ -78,7 +78,6 @@
       "command.storage.minio"
     ],
     "external": [
-      "command.answerloops",
       "command.appimg",
       "command.blitcp",
       "command.blkcp",
